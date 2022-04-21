@@ -26,8 +26,7 @@ The dataset used was a [Video Games Sales Dataset](https://www.kaggle.com/datase
     - Summing global and regional sales across platforms
     - Averaging _critic_score_, _critic_count_ and _user_score_
 5. String comparison to identify sequel games
-6. Sort row by publisher, then 1st word, then year of release
-7. Split 1st and 2nd games into separate dataframes with their corresponding variables then concatenate matching games into a single row in a single dataframe
+6. Split 1st and 2nd games into separate dataframes with their corresponding variables then concatenate matching games into a single row in a single dataframe
 
 
 
