@@ -42,30 +42,30 @@ The dataset used was a [Video Games Sales Dataset](https://www.kaggle.com/datase
 ## Machine Learning Model
 - One-Hot-Encoding for categorical variable genre
 1. First model
-    - Random Forest Regressor
+    - Random Forest Regressor with default hyperparameter values
         - Train Explained Variance: 0.835
         - Test Explained Variance: 0.536
     - Random Forest Regressor with GridSearchCV
-        - Hyperparameters: n_estimators, max_depth, min_samples_split, min_samples_leaf
-        - Train Explained Variance: 0.61
-        - Test Explained Variance: 0.60
+        - Hyperparameters tuned: n_estimators, max_depth, min_samples_split, min_samples_leaf
+        - Train Explained Variance: 0.615
+        - Test Explained Variance: 0.601
 2. Second model
-    - XGBoost Regression
-        - Train Explained Variance: 0.99
-        - Test Explained Variance: 0.30
-    - XGBoost with RandomizedSearchCV
+    - XGBoost Regression with default hyperparameter values
+        - Train Explained Variance: 0.998
+        - Test Explained Variance: 0.298
+    - XGBoost with early stopping and RandomizedSearchCV
         - Early stopping with root mean squared error evaluation metric
-        - Hyperparameters: learning_rate, max_depth, min_child_weight, gamma, colsample_bytree
-        - Train Explained Variance: 0.68
-        - Test Explained Variance: 0.66
+        - Hyperparameters tuned: learning_rate, max_depth, min_child_weight, gamma, colsample_bytree
+        - Train Explained Variance: 0.676
+        - Test Explained Variance: 0.660
 
 ## Conclusion
-- The XGBoost with RandomizedSearchCV model performed the best
+- The XGBoost Regressor model tuned with RandomizedSearchCV is the better-performing model, achieving an improvement in explained variance of around 0.06
 
 ## Contributors
 1. Anika: Data cleaning, EDA, machine learning model, presentation slides, script
-2. Dayna: Data clearning, EDA, machine learning model, presentation slides, script, presenter
-3. Zhi Kai: Data clearning, EDA, machine learning model, presentation slides, script, presenter
+2. Dayna: Data cleaning, EDA, machine learning model, presentation slides, script, presenter
+3. Zhi Kai: Data cleaning, EDA, machine learning model, presentation slides, script, presenter
 
 ## References
 1. https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
