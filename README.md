@@ -62,6 +62,9 @@ The dataset used was a [Video Games Sales Dataset](https://www.kaggle.com/datase
 ## Conclusion
 - The XGBoost Regressor model tuned with RandomizedSearchCV is the better-performing model, achieving an improvement in explained variance of around 0.06
 
+## Presentation Slides
+Presentation slides can be found [here.](https://docs.google.com/presentation/d/1YAc6b51vfsFI3srWbiPJVsZfXWtp08Otuy1LkDFAc7w/edit?usp=sharing)
+
 ## Contributors
 1. Anika: Data cleaning, EDA, machine learning model, presentation slides, script
 2. Dayna: Data cleaning, EDA, machine learning model, presentation slides, script, presenter
