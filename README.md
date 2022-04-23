@@ -28,7 +28,7 @@ The dataset used was a [Video Games Sales Dataset](https://www.kaggle.com/datase
 4. Use _groupby_ to combine the same game across different platforms into a single row
     - Summing global and regional sales across platforms
     - Averaging _critic_score_, _critic_count_ and _user_score_
-5. String comparison to identify sequel games
+5. String comparison to identify first games and their sequels
 6. Split 1st and 2nd games into separate dataframes with their corresponding variables then concatenate matching games into a single row in a single dataframe
 
 ## Exploratory Data Analysis (EDA)
@@ -60,7 +60,15 @@ The dataset used was a [Video Games Sales Dataset](https://www.kaggle.com/datase
         - Test Explained Variance: 0.660
 
 ## Conclusion
-- The XGBoost Regressor model tuned with RandomizedSearchCV is the better-performing model, achieving an improvement in explained variance of around 0.06
+### Data Insights:
+- Sales of the first game has a moderate correlation to the sales of its sequel, so if a certain game sells well, its sequel is likely to sell well too.
+- Sales of a sequel game varies according to its genre, in which games of the shooter genre are likely to sell better and games of the adventure genre are likely to do worse.
+### Outcome:
+For both training and test sets, the tuned XGBoost model has higher explained variance and lower RMSE values. Thus, we conclude that the XGBoost Regressor can predict Sales2 values better in this case, and can reasonably predict the sales of the sequel from the first game’s information with an explained variance of around 0.66 and RMSE of 1.5.
+### Recommendations:
+- Model can be used to decide if a game should have a sequel
+- Publishers can use the model to prioritise order of game development and resource allocation to maximise sales figures
+- Forecasted sales figures can attract investors
 
 ## Presentation Slides
 Presentation slides can be found [here.](https://docs.google.com/presentation/d/1YAc6b51vfsFI3srWbiPJVsZfXWtp08Otuy1LkDFAc7w/edit?usp=sharing)
