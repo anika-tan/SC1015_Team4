@@ -1,7 +1,7 @@
 # SC1015 Mini-Project
 This is for NTU's SC1015 Introduction to Data Science and Artificial Intelligence Mini-Project submission.
 
-Team 4 Members:
+SC16 Team 4 Members:
 1. Anika Tan Yan Yue
 2. Dayna Chia Ching Ning
 3. Leo Zhi Kai
@@ -39,25 +39,25 @@ The dataset used was a [Video Games Sales Dataset](https://www.kaggle.com/datase
     - Categorical plot for genre count and rating count
     - Boxplot for genre and rating
 
-## Machine Learning Model
+## Machine Learning Models
 - One-Hot-Encoding for categorical variable genre
-1. First model
-    - Random Forest Regressor with default hyperparameter values
-        - Train Explained Variance: 0.835
-        - Test Explained Variance: 0.536
-    - Random Forest Regressor with GridSearchCV
-        - Hyperparameters tuned: n_estimators, max_depth, min_samples_split, min_samples_leaf
-        - Train Explained Variance: 0.615
-        - Test Explained Variance: 0.601
-2. Second model
-    - XGBoost Regression with default hyperparameter values
-        - Train Explained Variance: 0.998
-        - Test Explained Variance: 0.298
-    - XGBoost with early stopping and RandomizedSearchCV
-        - Early stopping with root mean squared error evaluation metric
-        - Hyperparameters tuned: learning_rate, max_depth, min_child_weight, gamma, colsample_bytree
-        - Train Explained Variance: 0.676
-        - Test Explained Variance: 0.660
+### First Model
+- Random Forest Regressor with default hyperparameter values
+    - Train Explained Variance: 0.835
+    - Test Explained Variance: 0.536
+- Random Forest Regressor with GridSearchCV
+    - Hyperparameters tuned: n_estimators, max_depth, min_samples_split, min_samples_leaf
+    - Train Explained Variance: 0.615
+    - Test Explained Variance: 0.601
+### Second Model
+- XGBoost Regression with default hyperparameter values
+    - Train Explained Variance: 0.998
+    - Test Explained Variance: 0.298
+- XGBoost with early stopping and RandomizedSearchCV
+    - Early stopping with root mean squared error evaluation metric
+    - Hyperparameters tuned: learning_rate, max_depth, min_child_weight, gamma, colsample_bytree
+    - Train Explained Variance: 0.676
+    - Test Explained Variance: 0.660
 
 ## Conclusion
 ### Data Insights:
@@ -71,7 +71,7 @@ For both training and test sets, the tuned XGBoost model has higher explained va
 - Forecasted sales figures can attract investors
 
 ## Presentation Slides
-Presentation slides can be found [here.](https://docs.google.com/presentation/d/1YAc6b51vfsFI3srWbiPJVsZfXWtp08Otuy1LkDFAc7w/edit?usp=sharing)
+Presentation slides can be found [here](https://docs.google.com/presentation/d/1YAc6b51vfsFI3srWbiPJVsZfXWtp08Otuy1LkDFAc7w/edit?usp=sharing).
 
 ## Contributors
 1. Anika: Data cleaning, EDA, machine learning model, presentation slides, script
