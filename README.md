@@ -5,6 +5,9 @@ SC16 Team 4 Members:
 1. Anika Tan Yan Yue
 2. Dayna Chia Ching Ning
 3. Leo Zhi Kai
+---
+
+![Screenshot (52)](https://user-images.githubusercontent.com/97502167/164910694-c357768c-a638-4c67-88b6-33c42366700d.png)
 
 ---
 
