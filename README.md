@@ -16,8 +16,19 @@ The dataset used was a [Video Games Sales Dataset](https://www.kaggle.com/datase
 
 ---
 
+## About
+> Video game plays a significant role in modern day entertainment. In 2021, the gaming market is valued at USD 198.4 billion. It is expected to reach USD 339.9 billion by 2027. The growing market continues to attract more companies and individuals every year.
+
+---
+
 ## Problem Statement
 > What would be the predicted sales of a sequel based on features of the first game?
+
+---
+
+
+## Why?
+> More players join a growing market as it is expected to yield high returns. As such, the success of every game developed and published is of utmost importance. With an accurate estimation of potential sequel game sales, companies are in a better position to do cost-benefit analysis and decide if a sequel game is worth creating.
 
 ---
 
